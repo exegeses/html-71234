@@ -1,0 +1,25 @@
+/* Primero importar tipografía si es que vamos a usar la tipografía externa */
+
+body{
+    /* color de fondo, color de texto, familia tipográfica */
+    background-color: #12071b;
+    color: #f1e9f7;
+}
+header{
+    width: 1100px;
+    height: 128px;
+    /* Central un contenedor en el eje horizontal */
+    margin: auto;
+    background-color: #312043;
+}
+main{
+    width: 1100px;
+    height: 650px;
+    margin: auto;
+}
+footer{
+    width: 1100px;
+    height: 212px;
+    margin: auto;
+    background-color: #1B1425;
+}
