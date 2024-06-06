@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    background-color: #1a2429;
+    color: hsl(200, 22%, 90%);
+    width: 768px;
+    margin: auto;
+}
+
+#primero{
+    background-color: hsl(199, 30%, 25%);
+    height: 320px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /* flexbox */
+    display: flex;
+    /* Alinear en el eje horizontal X */
+    /* justify-content: start; /* Predeterminado alinear a la izquierda */
+    /* justify-content: end; /* Alinear a la derecha */
+    justify-content: center;
+}
+    #primero img{
+        width: 64px;
+        height: 64px;
+    }
+
+#segundo{
+    background-color: hsl(26, 50%, 25%);
+    height: 320px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    /* Alinear en el eje vertical Y */
+    /* align-items: start; /* Predeterminado alinear arriba */
+    /* align-items: end; /* Alinear en la parte inferior */
+    align-items: center;
+
+}
+    #segundo img{
+        width: 64px;
+        height: 64px;
+    }
+
+#tercero{
+    background-color: hsl(300, 50%, 25%);
+    height: 320px;
+    margin-top: 40px;
+    margin-bottom: 40px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
