@@ -1,0 +1,28 @@
+body{
+    background-color: #242b28;
+    font-family: sans-serif;
+    color: hsl(154, 9%, 85%);
+    font-size: 24px;
+}
+main{
+    width: 1100px;
+    margin: auto;
+}
+    section{
+        background-color: hsl(154, 9%, 25%);;
+    }
+        span{
+            width: 200px;
+            height: 80px;
+            background-color: #72995c;
+            /* No funciona en elementos de línea */
+        }
+
+        h3{
+            width: 200px;
+            height: 80px;
+            background-color: #72995c;            
+        }
+        img{
+            width: 200px;
+        }

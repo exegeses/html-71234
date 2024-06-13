@@ -1,0 +1,34 @@
+body{
+    background-color: #242b28;
+    font-family: sans-serif;
+    color: hsl(154, 9%, 85%);
+}
+main{
+    width: 1100px;
+    margin: auto;
+}
+
+#primero, 
+#francia
+{
+    height: 680px;
+    background-color: #5d716d;
+}
+
+#primero{
+   /* background-image: url(../imgs/sun-glasses-.png);
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background-image: url(../imgs/bg-sunflowers.jpg);
+}
+
+#francia{
+    background-image: url(../imgs/lighthouse.jpg);
+    background-position: -160px center;
+
+    font-size: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 64px;
+}
