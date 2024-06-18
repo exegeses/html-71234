@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*reseteo*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Figtree", sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    width: 684px;
+    margin: 64px auto;
+}
+    #primero{
+        width: 400px;
+        height: 128px;
+        background-color: #bdf7d0;
+        margin: 64px;
+        /* box-shadow: x y blur color; */
+        box-shadow: 0px 4px 4px #66666650;
+    }    
+
+    .sombra{
+        width: 400px;
+        height: 128px;
+        background-color: hsl(140, 78%, 76%);
+        border-radius: 16px;
+        margin: 64px;
+        /* box-shadow: x y blur color; */
+        box-shadow: 0px 4px 8px #66666650;
+
+        text-shadow: 0px 1px 0px hsl(140, 78%, 100%);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:  hsl(140, 78%, 16%);
+    }
+
